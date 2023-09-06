@@ -14,7 +14,3 @@ spec:
             port:
               number: 80
   ingressClassName: nginx
-status:
-  loadBalancer:
-    ingress:
-    - hostname: placeholder
