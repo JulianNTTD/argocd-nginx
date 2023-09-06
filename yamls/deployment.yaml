@@ -13,7 +13,7 @@ spec:
         app: nginx-app
     spec:
       containers:
-      - name: nginx-app
-        image: nginx:1.14.2
+      - name: nginx
+        image: nginx
         ports:
-        - containerPort: 80
+        - containerPort: 8090
