@@ -16,4 +16,4 @@ spec:
       - name: nginx
         image: nginx
         ports:
-        - containerPort: 8090
+        - containerPort: 80
