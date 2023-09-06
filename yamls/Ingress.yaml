@@ -16,10 +16,3 @@ spec:
             name: nginx
             port:
               number: 80
-data:
-  resource.customizations: |
-    extensions/Ingress:
-        health.lua: |
-          hs = {}
-          hs.status = "Healthy"
-          return hs
