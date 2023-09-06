@@ -6,6 +6,6 @@ spec:
   selector:
     app: demo-nginx-app
   ports:
-  - port: 8080
+  - port: 8090
     protocol: TCP
     targetPort: 80
